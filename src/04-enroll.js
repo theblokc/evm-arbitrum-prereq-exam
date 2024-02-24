@@ -26,7 +26,7 @@ async function main() {
   // Create a wallet instance
   let wallet = new Wallet(PRIVATE_KEY, provider);
   const contract = new Contract(CONTRACT_ADDRESS, CONTRACT_ABI, wallet);
-  const { sig, messageHash } = await signMessage("code-is-here", wallet);
+  const { sig, messageHash } = await signMessage("do or do not, there is no try", wallet);
 
   const tx = await contract
     .connect(wallet)
