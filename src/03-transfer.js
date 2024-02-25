@@ -9,8 +9,8 @@ async function main() {
 
   let wallet = new Wallet(PRIVATE_KEY, provider);
 
-  // if not successful, adjust this amount
-  let amountInEther = "0.4999";
+  // just transfer a 'test' amount
+  let amountInEther = "0.001";
 
   let tx = {
     to: DESTINATION_WALLET,
