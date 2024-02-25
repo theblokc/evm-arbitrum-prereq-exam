@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wallet": "node src/01-wallet.js",
+    "balance": "node src/02-balance.js",
+    "transfer": "node src/03-transfer.js",
+    "enroll": "node src/04-enroll.js"
   },
   "keywords": [],
   "author": "",
