@@ -1,7 +1,7 @@
 const { JsonRpcProvider, Wallet, parseEther } = require("ethers");
 
-const PRIVATE_KEY = ??
-const DESTINATION_WALLET = ?? // The wallet you created from MetaMask;
+const PRIVATE_KEY = ??;
+const DESTINATION_WALLET = ??;
 const JSON_RPC_URL = ??;
 
 async function main() {

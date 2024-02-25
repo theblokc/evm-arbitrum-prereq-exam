@@ -4,7 +4,7 @@ const { JsonRpcProvider, Wallet, Contract } = ethers;
 const CONTRACT_ABI = require("./artifacts/Enroll.json").abi;
 
 const CONTRACT_ADDRESS = "0xa64acca904908951f3e070330ddc8aa8bf5164a1";
-const PRIVATE_KEY = ??; // Private key from your MetaMask;
+const PRIVATE_KEY = ??;
 const JSON_RPC_URL = ??;
 
 const GITHUB_USERNAME = ??;
