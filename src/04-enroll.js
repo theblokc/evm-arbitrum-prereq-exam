@@ -1,6 +1,6 @@
 // test: 0xa64acca904908951f3e070330ddc8aa8bf5164a1
 const ethers = require("ethers");
-const { JsonRpcProvider, Wallet, parseEther, Contract } = ethers;
+const { JsonRpcProvider, Wallet, Contract } = ethers;
 const CONTRACT_ABI = require("./artifacts/Enroll.json").abi;
 
 const CONTRACT_ADDRESS = "0xa64acca904908951f3e070330ddc8aa8bf5164a1";
